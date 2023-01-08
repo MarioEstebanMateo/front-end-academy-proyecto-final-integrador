@@ -18,12 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>CV Mario Esteban Mateo</title>
+    <title>Curriculum Vitae</title>
   </head>
   <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Curriculum Vitae</a>
+        <a class="navbar-brand titulo" href="#">Curriculum Vitae</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,11 +36,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
-            <a class="nav-link" href="#">Experiencia</a>
-            <a class="nav-link" href="#">Formación</a>
-            <a class="nav-link" href="#">Contacto</a>
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link link1 active" aria-current="page" href="#"
+              >Sobre Mí</a
+            >
+            <a class="nav-link link2" href="#experiencia">Experiencia</a>
+            <a class="nav-link link3" href="#formacion">Formación</a>
+            <a class="nav-link link3" href="#contacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -49,6 +51,76 @@
     <section>
       <h1 id="nombre"></h1>
       <img src="" alt="Imagen de CV" class="img-fluid" id="imagen" />
+    </section>
+
+    <section id="sobre_mi">
+      <h2>Sobre Mi</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae numquam
+        aliquam ullam quibusdam dolorum, asperiores facilis molestiae a culpa
+        laborum magnam voluptas id iste reprehenderit aspernatur qui minus.
+        Obcaecati unde laboriosam odio iure velit nulla blanditiis excepturi
+        facere rerum distinctio ipsa exercitationem sint, vel, dolor quos. Ipsam
+        voluptatibus adipisci eum repudiandae a aspernatur recusandae!
+        Asperiores illum ut, ad ex animi aliquam quaerat nemo iusto culpa sunt
+        quia dolore odio impedit ullam eveniet molestiae natus est maiores
+        aspernatur id! Doloribus neque reiciendis veniam rem, tempora
+        cupiditate, vero quo nihil blanditiis ipsa voluptates, consequuntur
+        minus ut vel quasi labore explicabo omnis praesentium.
+      </p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>Empresa 1</h3>
+          <p>Fecha de inicio</p>
+          <p>Fecha de fin</p>
+          <p>Descripción</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3>Empresa 2</h3>
+          <p>Fecha de inicio</p>
+          <p>Fecha de fin</p>
+          <p>Descripción</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>Empresa 3</h3>
+          <p>Fecha de inicio</p>
+          <p>Fecha de fin</p>
+          <p>Descripción</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3>Empresa 4</h3>
+          <p>Fecha de inicio</p>
+          <p>Fecha de fin</p>
+          <p>Descripción</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion">
+      <h2>Formación</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>Formación 1</h3>
+          <p>Fecha de inicio</p>
+          <p>Fecha de fin</p>
+          <p>Descripción</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3>Formación 2</h3>
+          <p>Fecha de inicio</p>
+          <p>Fecha de fin</p>
+          <p>Descripción</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
       <p id="email"></p>
       <p id="telefono"></p>
       <p id="direccion"></p>
@@ -56,7 +128,21 @@
       <p id="pais"></p>
     </section>
 
-    <footer>
+    <section id="redes_sociales">
+      <div>
+        <h2>Redes Sociales</h2>
+        <div>
+          <p id="linkedin">
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+          </p>
+          <p id="github">
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-auto">
       <p>Desarrollado por Mario Esteban Mateo</p>
     </footer>
 
