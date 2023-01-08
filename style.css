@@ -4,8 +4,111 @@
     box-sizing: border-box;
 }
 
+.container-fluid {
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.titulo {
+    margin-left: 10px;
+}
+
+h1,h2{
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.links {
+    gap: 50px;
+}
+
 #imagen {
     border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+#nombre_imagen {
+    padding-top: 20px;
+    color: white;
+    background-image: url(img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+
+#sobre_mi {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+#sobre_mi h2 {
+    background-image: url(img/adorno.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px
+}
+
+#sobre_mi p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+#experiencia {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#experiencia h2 {
+    background-image: url(img/adorno.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px
+}
+
+#formacion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#formacion h2 {
+    background-image: url(img/adorno.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px
+}
+
+#contacto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contacto h2 {
+    background-image: url(img/adorno.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px
+}
+
+#redes_sociales {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#redes_sociales h2 {
+    background-image: url(img/adorno.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px
 }
 
 .redes{
@@ -13,4 +116,6 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
+    gap: 20px;
+    font-size: 50px;
 }
