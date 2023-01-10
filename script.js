@@ -27,11 +27,4 @@ fetch("https://randomuser.me/api/?gender=male")
 
     document.getElementById("pais").innerHTML =
       "Pais: " + data.results[0].location.country;
-
-    //get element latitud and longitud
-    document.getElementById("latitud").innerHTML =
-      "Latitud: " + data.results[0].location.coordinates.latitude;
-
-    document.getElementById("longitud").innerHTML =
-      "Longitud: " + data.results[0].location.coordinates.longitude;
   });
